@@ -1,0 +1,48 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+cm}{/*}
+\PYG{c+cm}{* Written by: Dan Jandel C. De Ramos}
+\PYG{c+cm}{* Polytechnic University of the Philippines Biñan}
+\PYG{c+cm}{* Bachelor of Science in Computer Engineering 2\PYGZhy{}1}
+\PYG{c+cm}{*/}
+\PYG{+w}{	}
+\PYG{k+kn}{import}\PYG{+w}{ }\PYG{n+nn}{java.util.Scanner}\PYG{p}{;}
+\PYG{k+kn}{import}\PYG{+w}{ }\PYG{n+nn}{java.util.InputMismatchException}\PYG{p}{;}
+\PYG{+w}{		}
+\PYG{k+kd}{public}\PYG{+w}{ }\PYG{k+kd}{class} \PYG{n+nc}{Activity\PYGZus{}2}\PYG{p}{\PYGZob{}}
+\PYG{+w}{	}\PYG{k+kd}{public}\PYG{+w}{ }\PYG{k+kd}{static}\PYG{+w}{ }\PYG{k+kt}{void}\PYG{+w}{ }\PYG{n+nf}{main}\PYG{p}{(}\PYG{n}{String}\PYG{o}{[]}\PYG{n}{args}\PYG{p}{)\PYGZob{}}
+\PYG{+w}{				}
+\PYG{+w}{		}\PYG{n}{Scanner}\PYG{+w}{ }\PYG{n}{input}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{k}{new}\PYG{+w}{ }\PYG{n}{Scanner}\PYG{p}{(}\PYG{n}{System}\PYG{p}{.}\PYG{n+na}{in}\PYG{p}{);}
+\PYG{+w}{				}
+\PYG{+w}{		}\PYG{n}{String}\PYG{+w}{ }\PYG{n}{name}\PYG{p}{;}
+\PYG{+w}{		}\PYG{n}{String}\PYG{+w}{ }\PYG{n}{location}\PYG{p}{;}
+\PYG{+w}{		}\PYG{k+kt}{short}\PYG{+w}{ }\PYG{n}{age}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{+w}{		}
+\PYG{+w}{		}\PYG{n}{System}\PYG{p}{.}\PYG{n+na}{out}\PYG{p}{.}\PYG{n+na}{println}\PYG{p}{();}
+\PYG{+w}{		}
+\PYG{+w}{		}\PYG{n}{System}\PYG{p}{.}\PYG{n+na}{out}\PYG{p}{.}\PYG{n+na}{println}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}\PYGZbs{}u2022 Activity \PYGZsh{} 2 \PYGZbs{}u2022 \PYGZbs{}n\PYGZdq{}}\PYG{p}{);}
+\PYG{+w}{		}\PYG{n}{System}\PYG{p}{.}\PYG{n+na}{out}\PYG{p}{.}\PYG{n+na}{println}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}What is your name? \PYGZdq{}}\PYG{p}{);}
+\PYG{+w}{		}\PYG{n}{name}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{input}\PYG{p}{.}\PYG{n+na}{nextLine}\PYG{p}{();}
+\PYG{+w}{		}\PYG{n}{System}\PYG{p}{.}\PYG{n+na}{out}\PYG{p}{.}\PYG{n+na}{println}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}\PYGZbs{}nWhat is your age in years? \PYGZdq{}}\PYG{p}{);}
+\PYG{+w}{		}\PYG{k}{while}\PYG{p}{(}\PYG{n}{age}\PYG{o}{==}\PYG{l+m+mi}{0}\PYG{p}{)\PYGZob{}}
+\PYG{+w}{			}\PYG{k}{try}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{				}\PYG{n}{age}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{input}\PYG{p}{.}\PYG{n+na}{nextShort}\PYG{p}{();}
+\PYG{+w}{			}\PYG{p}{\PYGZcb{}}\PYG{+w}{ }\PYG{k}{catch}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{java}\PYG{p}{.}\PYG{n+na}{util}\PYG{p}{.}\PYG{n+na}{InputMismatchException}\PYG{+w}{ }\PYG{n}{e}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{				}\PYG{n}{System}\PYG{p}{.}\PYG{n+na}{out}\PYG{p}{.}\PYG{n+na}{print}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}\PYGZbs{}n!!! You have entered an invalid value.\PYGZdq{}}\PYG{p}{);}
+\PYG{+w}{				}\PYG{n}{System}\PYG{p}{.}\PYG{n+na}{out}\PYG{p}{.}\PYG{n+na}{println}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Please use whole numbers only !!!\PYGZdq{}}\PYG{p}{);}
+\PYG{+w}{				}\PYG{n}{System}\PYG{p}{.}\PYG{n+na}{out}\PYG{p}{.}\PYG{n+na}{println}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}What is your age in years?\PYGZdq{}}\PYG{p}{);}
+\PYG{+w}{				}\PYG{n}{input}\PYG{p}{.}\PYG{n+na}{next}\PYG{p}{();}
+\PYG{+w}{			}\PYG{p}{\PYGZcb{}}
+\PYG{+w}{		}\PYG{p}{\PYGZcb{}}
+\PYG{+w}{				}
+\PYG{+w}{		}\PYG{n}{input}\PYG{p}{.}\PYG{n+na}{nextLine}\PYG{p}{();}
+\PYG{+w}{		}\PYG{n}{System}\PYG{p}{.}\PYG{n+na}{out}\PYG{p}{.}\PYG{n+na}{println}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}\PYGZbs{}nWhere do you live?\PYGZdq{}}\PYG{p}{);}
+\PYG{+w}{		}\PYG{n}{location}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{input}\PYG{p}{.}\PYG{n+na}{nextLine}\PYG{p}{();}
+\PYG{+w}{		}\PYG{n}{input}\PYG{p}{.}\PYG{n+na}{close}\PYG{p}{();}
+\PYG{+w}{		}\PYG{n}{System}\PYG{p}{.}\PYG{n+na}{out}\PYG{p}{.}\PYG{n+na}{println}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}\PYGZbs{}nYour name is \PYGZdq{}}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{n}{name}\PYG{p}{);}
+\PYG{+w}{		}\PYG{n}{System}\PYG{p}{.}\PYG{n+na}{out}\PYG{p}{.}\PYG{n+na}{println}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}You are \PYGZdq{}}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{n}{age}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{} years old\PYGZdq{}}\PYG{p}{);}
+\PYG{+w}{		}\PYG{n}{System}\PYG{p}{.}\PYG{n+na}{out}\PYG{p}{.}\PYG{n+na}{println}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}You live in \PYGZdq{}}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{n}{location}\PYG{p}{);}
+\PYG{+w}{		}
+\PYG{+w}{		}\PYG{n}{System}\PYG{p}{.}\PYG{n+na}{out}\PYG{p}{.}\PYG{n+na}{println}\PYG{p}{();}
+\PYG{+w}{	}\PYG{p}{\PYGZcb{}}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}
