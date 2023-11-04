@@ -8,7 +8,7 @@ public class Activity_1{
     public static void main(String[]args){         
         
         //The data stored here are for the sake of examples only and are not 100% accurate        
-        String name_1 = "Dan Jandel C. De Ramos";        
+        String name = "Dan Jandel C. De Ramos";        
         char gender = 'M';
         char pesoSign = '\u20B1';
         boolean maritalStatus = false;
@@ -22,7 +22,7 @@ public class Activity_1{
         System.out.println();
 
         System.out.println(" \u2022 Activity # 1 \u2022 \n");
-        System.out.println("Name: " + name_1);
+        System.out.println("Name: " + name);
         System.out.println("Gender: " + gender);
         System.out.println("Married: " + maritalStatus);
         System.out.println("Number of Children: " + numberOfChildren);

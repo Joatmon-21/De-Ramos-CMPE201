@@ -4,10 +4,10 @@
 \PYG{c+cm}{* Polytechnic University of the Philippines Biñan}
 \PYG{c+cm}{* Bachelor of Science in Computer Engineering 2\PYGZhy{}1}
 \PYG{c+cm}{*/}
-
+\PYG{+w}{		}
 \PYG{k+kd}{public}\PYG{+w}{ }\PYG{k+kd}{class} \PYG{n+nc}{Activity\PYGZus{}1}\PYG{p}{\PYGZob{}}
 \PYG{+w}{	}\PYG{k+kd}{public}\PYG{+w}{ }\PYG{k+kd}{static}\PYG{+w}{ }\PYG{k+kt}{void}\PYG{+w}{ }\PYG{n+nf}{main}\PYG{p}{(}\PYG{n}{String}\PYG{o}{[]}\PYG{n}{args}\PYG{p}{)\PYGZob{}}
-\PYG{+w}{			}
+\PYG{+w}{				}
 \PYG{+w}{		}\PYG{c+c1}{//The data stored here are for the sake of examples only and are not 100\PYGZpc{} accurate}
 \PYG{+w}{		}\PYG{n}{String}\PYG{+w}{ }\PYG{n}{name\PYGZus{}1}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}Dan Jandel C. De Ramos\PYGZdq{}}\PYG{p}{;}
 \PYG{+w}{		}\PYG{k+kt}{char}\PYG{+w}{ }\PYG{n}{gender}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s+sc}{\PYGZsq{}M\PYGZsq{}}\PYG{p}{;}
@@ -19,9 +19,9 @@
 \PYG{+w}{		}\PYG{k+kt}{long}\PYG{+w}{ }\PYG{n}{netAsset}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{89414685416L}\PYG{p}{;}
 \PYG{+w}{		}\PYG{k+kt}{double}\PYG{+w}{ }\PYG{n}{weight}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mf}{69.42}\PYG{p}{;}
 \PYG{+w}{		}\PYG{k+kt}{float}\PYG{+w}{ }\PYG{n}{gpa}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mf}{1.88f}\PYG{p}{;}
-\PYG{+w}{				}
+\PYG{+w}{		}
 \PYG{+w}{		}\PYG{n}{System}\PYG{p}{.}\PYG{n+na}{out}\PYG{p}{.}\PYG{n+na}{println}\PYG{p}{();}
-\PYG{+w}{				}
+\PYG{+w}{		}
 \PYG{+w}{		}\PYG{n}{System}\PYG{p}{.}\PYG{n+na}{out}\PYG{p}{.}\PYG{n+na}{println}\PYG{p}{(}\PYG{l+s}{\PYGZdq{} \PYGZbs{}u2022 Activity \PYGZsh{} 1 \PYGZbs{}u2022 \PYGZbs{}n\PYGZdq{}}\PYG{p}{);}
 \PYG{+w}{		}\PYG{n}{System}\PYG{p}{.}\PYG{n+na}{out}\PYG{p}{.}\PYG{n+na}{println}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Name: \PYGZdq{}}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{n}{name\PYGZus{}1}\PYG{p}{);}
 \PYG{+w}{		}\PYG{n}{System}\PYG{p}{.}\PYG{n+na}{out}\PYG{p}{.}\PYG{n+na}{println}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Gender: \PYGZdq{}}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{n}{gender}\PYG{p}{);}

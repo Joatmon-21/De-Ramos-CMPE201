@@ -7,7 +7,7 @@
 import java.util.Scanner;
 import java.util.InputMismatchException;
 
-public class Activity_2{
+public class Activity_2_nL{
     public static void main(String[]args){
 
         Scanner input = new Scanner(System.in);
