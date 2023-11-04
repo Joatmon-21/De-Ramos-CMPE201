@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.10.30)  4 NOV 2023 11:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.10.30)  4 NOV 2023 11:56
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -358,24 +358,24 @@ Package pdftex.def Info: output1.png  used on input line 98.
  <./output1.png (PNG copy)>]
 \openout3 = `document.pyg'.
 
+runsystem(pygmentize -l "java" -f latex -P commandprefix=PYG -F tokenmerge -P s
+tripnl="False" -o _minted-document/2C9A517B079480804FC79F8434B55117EA7A490E3851
+FFC6FABC8CB432AB7BA8.pygtex document.pyg)...executed.
 
-(_minted-document/1E45A8A5B5B7A86BA91949119D0ED173EA7A490E3851FFC6FABC8CB432AB7
+
+(_minted-document/2C9A517B079480804FC79F8434B55117EA7A490E3851FFC6FABC8CB432AB7
 BA8.pygtex) [5
 
 ]
 <output2n.png, id=23, 1294.8375pt x 265.99374pt>
 File: output2n.png Graphic file (type png)
 <use output2n.png>
-Package pdftex.def Info: output2n.png  used on input line 150.
+Package pdftex.def Info: output2n.png  used on input line 151.
 (pdftex.def)             Requested size: 578.16002pt x 118.77068pt.
  [6
 
  <./output2n.png (PNG copy)>]
 \openout3 = `document.pyg'.
-
-runsystem(pygmentize -l "java" -f latex -P commandprefix=PYG -F tokenmerge -P s
-tripnl="False" -o _minted-document/9D00DA1F0CB272C5F57F5088EFFF66CAEA7A490E3851
-FFC6FABC8CB432AB7BA8.pygtex document.pyg)...executed.
 
 
 (_minted-document/9D00DA1F0CB272C5F57F5088EFFF66CAEA7A490E3851FFC6FABC8CB432AB7
@@ -385,7 +385,7 @@ BA8.pygtex) [7
 <output2nL.png, id=31, 1319.93124pt x 465.74pt>
 File: output2nL.png Graphic file (type png)
 <use output2nL.png>
-Package pdftex.def Info: output2nL.png  used on input line 206.
+Package pdftex.def Info: output2nL.png  used on input line 207.
 (pdftex.def)             Requested size: 578.16002pt x 204.00948pt.
  [8
 
@@ -404,13 +404,13 @@ Here is how much of TeX's memory you used:
  27625 multiletter control sequences out of 15000+600000
  561142 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 77i,5n,79p,443b,506s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 77i,5n,79p,350b,506s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/508un/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmitt10.pfb><C:/Users/508un/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
 sfonts/cm/cmr12.pfb><C:/Users/508un/AppData/Local/Programs/MiKTeX/fonts/type1/p
 ublic/amsfonts/cm/cmr8.pfb><C:/Users/508un/AppData/Local/Programs/MiKTeX/fonts/
 type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on document.pdf (8 pages, 204688 bytes).
+Output written on document.pdf (8 pages, 204686 bytes).
 PDF statistics:
  53 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

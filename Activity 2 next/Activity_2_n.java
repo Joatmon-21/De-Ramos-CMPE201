@@ -34,7 +34,8 @@ public class Activity_2_n{
 
         System.out.println();        
 
-        System.out.println("I wonder what a " + favoriteColor + " " + favoriteFruit + " would taste like");
+        System.out.println("I wonder what a " + favoriteColor +
+        " " + favoriteFruit + " would taste like");
 
         System.out.println();
 
