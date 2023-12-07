@@ -20,7 +20,7 @@ public class Conditional_Statements_1{
 
         //Nested-If-then-Else
         System.out.println();
-        System.out.println("\u2022 Divisibility Checker \u2022");
+        System.out.println("\u2219 Vowel or Not? \u2219");
         System.out.println();
         input.close();
     }
