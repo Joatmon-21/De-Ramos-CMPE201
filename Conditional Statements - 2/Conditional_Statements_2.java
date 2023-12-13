@@ -25,9 +25,9 @@ public class Conditional_Statements_2{
         System.out.println("3 - " + houseType3);
         System.out.print("Type your choice: ");
         houseType = input.nextLine();
-        if( houseType.equals("1") &&
-            houseType.equals("2") &&
-            houseType.equals("3")){ 
+        if(!(houseType.equals("1") ||
+            houseType.equals("2") ||
+            houseType.equals("3"))){ 
             System.out.println("You have entered an invalid value. Please rerun the program");
             System.exit(0);
         }
@@ -41,9 +41,9 @@ public class Conditional_Statements_2{
         System.out.println("C - Exterior");
         System.out.print("Type your choice: ");
         garageType = input.nextLine();
-        if( garageType.equalsIgnoreCase("A") &&
-            garageType.equalsIgnoreCase("B") &&
-            garageType.equalsIgnoreCase("C")){
+        if(!(garageType.equalsIgnoreCase("A") ||
+            garageType.equalsIgnoreCase("B") ||
+            garageType.equalsIgnoreCase("C"))){
             System.out.println("You have entered an invalid value. Please rerun the program");
             System.exit(0);
         }
