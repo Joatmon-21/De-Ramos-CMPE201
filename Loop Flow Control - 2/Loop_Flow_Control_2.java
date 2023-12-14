@@ -1,8 +1,8 @@
 /*
- * Written by: Dan Jandel C. De Ramos
- * Polytechnic University of the Philippines Biñan
- * Bachelor of Science in Computer Engineering 2-1
- */
+Written by: Dan Jandel C. De Ramos
+Polytechnic University of the Philippines Biñan
+Bachelor of Science in Computer Engineering 2-1
+*/
 
 import java.util.Scanner;
 import java.util.InputMismatchException;
@@ -51,5 +51,6 @@ public class Loop_Flow_Control_2{
             System.out.println(loop2 + " x " + baseNum + " = " + (baseNum*loop2));
             loop2++;
         }while(loop2!=11);
+        System.out.println();
     }
 }

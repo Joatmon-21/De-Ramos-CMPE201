@@ -1,8 +1,8 @@
 /*
- * Written by: Dan Jandel C. De Ramos
- * Polytechnic University of the Philippines Biñan
- * Bachelor of Science in Computer Engineering 2-1
- */
+Written by: Dan Jandel C. De Ramos
+Polytechnic University of the Philippines Biñan
+Bachelor of Science in Computer Engineering 2-1
+*/
 
 import java.util.Scanner;
 
@@ -71,6 +71,7 @@ public class Conditional_Statements_2{
             System.out.print(" with an " + garageType3 + " garage");
         }
 
+        //Added the houseType and garageType to the end as a sort of order code
         System.out.println(" [" + houseType + garageType.toUpperCase() + "]");
         System.out.println();
     }

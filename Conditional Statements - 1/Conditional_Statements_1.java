@@ -1,8 +1,8 @@
 /*
- * Written by: Dan Jandel C. De Ramos
- * Polytechnic University of the Philippines Biñan
- * Bachelor of Science in Computer Engineering 2-1
- */
+Written by: Dan Jandel C. De Ramos
+Polytechnic University of the Philippines Biñan
+Bachelor of Science in Computer Engineering 2-1
+*/
 
 import java.util.Scanner;
 //package for handling the exception with the same namethrown by the Scanner in the event of an input mismatch
@@ -40,9 +40,11 @@ public class Conditional_Statements_1{
         //Nested if-then-else
         System.out.println("\u2219 Value Comparison \u2219");
         System.out.print("Enter a number: ");
-        /*try statement, where user error (exception) is likely to occur
+        /*
+        try statement, where user error (exception) is likely to occur
         catch statement to instruct the program what to do if a certain or if an exception occurs
-        can use a loop to keep the program running in case of an exception but decided to keep it simple*/
+        can use a loop to keep the program running in case of an exception but decided to keep it simple
+        */
         try{
             number1 = input.nextFloat();        
         }catch(InputMismatchException e){
@@ -65,5 +67,6 @@ public class Conditional_Statements_1{
             System.out.println(number1 + " is less than " + number2);
         }
         input.close();
+        System.out.println();
     }
 }
