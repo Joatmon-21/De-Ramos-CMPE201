@@ -17,6 +17,10 @@ public class Conditional_Statements_2{
         String houseType2 = "Townhouse";
         String houseType3 = "Condominium";
 
+        String garageType1 = "Interior/Exterior";
+        String garageType2 = "Interior";
+        String garageType3 = "Exterior";
+
         System.out.println();
         System.out.println("Enter the type of house you want to purchase");
         System.out.println("!!! Type the associated number only !!!");
@@ -24,7 +28,7 @@ public class Conditional_Statements_2{
         System.out.println("2 - " + houseType2);
         System.out.println("3 - " + houseType3);
         System.out.print("Type your choice: ");
-        houseType = input.nextLine();
+        houseType = input.nextLine();        
         if(!(houseType.equals("1") ||
             houseType.equals("2") ||
             houseType.equals("3"))){ 
@@ -36,11 +40,12 @@ public class Conditional_Statements_2{
 
         System.out.println("Enter the type of garage you want");
         System.out.println("!!! Type the associated letter only !!!");
-        System.out.println("A - Doesn't Matter");
-        System.out.println("B - Interior");
-        System.out.println("C - Exterior");
+        System.out.println("A - " + garageType1);
+        System.out.println("B - " + garageType2);
+        System.out.println("C - " + garageType3);
         System.out.print("Type your choice: ");
         garageType = input.nextLine();
+        input.close();
         if(!(garageType.equalsIgnoreCase("A") ||
             garageType.equalsIgnoreCase("B") ||
             garageType.equalsIgnoreCase("C"))){
@@ -59,11 +64,11 @@ public class Conditional_Statements_2{
             System.out.print(houseType3);
         }
         if(garageType.equalsIgnoreCase("A")){
-            System.out.print(" with no preference whether the garage is interior or exterior");
+            System.out.print(" with either an " + garageType1 + " garage");
         }else if(garageType.equalsIgnoreCase("B")){
-            System.out.print(" with an interior garage");
+            System.out.print(" with an " + garageType2 + " garage");
         }else if(garageType.equalsIgnoreCase("C")){
-            System.out.print(" with an exterior garage");
+            System.out.print(" with an " + garageType3 + " garage");
         }
 
         System.out.println(" [" + houseType + garageType.toUpperCase() + "]");
