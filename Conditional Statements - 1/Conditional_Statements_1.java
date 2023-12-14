@@ -5,13 +5,16 @@
  */
 
 import java.util.Scanner;
+//package for handling the exception with the same namethrown by the Scanner in the event of an input mismatch
 import java.util.InputMismatchException;
 
 public class Conditional_Statements_1{
     public static void main(String[]args){
 
         Scanner input = new Scanner(System.in);
-        String letter;             
+        //Could've used char in order to save memory, but due to the scale of the program it is unnecessary
+        String letter;         
+        //used floats in case the user wants to compare decimal numbers    
         float number1 = 0;
         float number2 = 0;
 
@@ -20,6 +23,8 @@ public class Conditional_Statements_1{
         System.out.println("\u2219 Vowel or Not? \u2219");
         System.out.print("Type a letter: ");
         letter = input.nextLine();
+        /*Checks whether the input is a vowel or not
+        Used else statement since even if it is a word it is still not a word*/
         if(letter.equalsIgnoreCase("a")||
         letter.equalsIgnoreCase("e")||
         letter.equalsIgnoreCase("i")||
@@ -35,6 +40,9 @@ public class Conditional_Statements_1{
         //Nested if-then-else
         System.out.println("\u2219 Value Comparison \u2219");
         System.out.print("Enter a number: ");
+        /*try statement, where user error (exception) is likely to occur
+        catch statement to instruct the program what to do if a certain or if an exception occurs
+        can use a loop to keep the program running in case of an exception but decided to keep it simple*/
         try{
             number1 = input.nextFloat();        
         }catch(InputMismatchException e){
